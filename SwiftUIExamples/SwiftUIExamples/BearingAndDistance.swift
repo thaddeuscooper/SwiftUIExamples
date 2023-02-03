@@ -36,7 +36,7 @@ struct BearingAndDistance: View {
 				.fill(.white)
 				.frame(width: 6.0, height: 6.0)
 				.offset(x: offsetX, y: offsetY)
-			Text("\(distance.value.formatted(.number)) Miles")
+			Text("\(distance.value.formatted(.number)) \(distance.unit.symbol)")
 				.font(.system(size: 10.0))
 		}
 		
