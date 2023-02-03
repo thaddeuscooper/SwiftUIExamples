@@ -10,6 +10,7 @@ import SwiftUI
 // ZStack (https://developer.apple.com/documentation/swiftui/zstack)
 // Circle (https://developer.apple.com/documentation/swiftui/circle)
 // Text (https://developer.apple.com/documentation/swiftui/text)
+// Measurement (https://developer.apple.com/documentation/foundation/measurement)
 
 // This view implements a display to show bearing and distance, where bearing is in degrees and distance is in miles.
 struct BearingAndDistance: View {
