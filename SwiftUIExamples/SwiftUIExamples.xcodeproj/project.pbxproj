@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E098030298DBF0E0040B3A4 /* BearingAndDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09802F298DBF0E0040B3A4 /* BearingAndDistance.swift */; };
 		1E76B816296247F70046853B /* SwiftUIExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76B815296247F70046853B /* SwiftUIExamplesApp.swift */; };
 		1E76B818296247F70046853B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76B817296247F70046853B /* ContentView.swift */; };
 		1E76B81A296247F80046853B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E76B819296247F80046853B /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E09802F298DBF0E0040B3A4 /* BearingAndDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BearingAndDistance.swift; sourceTree = "<group>"; };
 		1E76B812296247F70046853B /* SwiftUIExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E76B815296247F70046853B /* SwiftUIExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesApp.swift; sourceTree = "<group>"; };
 		1E76B817296247F70046853B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				1E76B815296247F70046853B /* SwiftUIExamplesApp.swift */,
 				1E76B817296247F70046853B /* ContentView.swift */,
+				1E09802F298DBF0E0040B3A4 /* BearingAndDistance.swift */,
 				1E76B819296247F80046853B /* Assets.xcassets */,
 				1E76B81B296247F80046853B /* SwiftUIExamples.entitlements */,
 				1E76B81C296247F80046853B /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				1E76B818296247F70046853B /* ContentView.swift in Sources */,
 				1E76B816296247F70046853B /* SwiftUIExamplesApp.swift in Sources */,
+				1E098030298DBF0E0040B3A4 /* BearingAndDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
