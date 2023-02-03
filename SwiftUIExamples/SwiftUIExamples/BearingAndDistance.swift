@@ -13,8 +13,8 @@ import SwiftUI
 
 // This view implements a display to show bearing and distance, where bearing is in degrees and distance is in miles.
 struct BearingAndDistance: View {
-	var bearing = 0.0
-	var distance = 0.0
+	var bearing = Measurement(value: 0.0, unit: UnitAngle.degrees)
+	var distance = Measurement(value: 0.0, unit: UnitLength.miles)
 	
 	var body: some View {
 		let frameWidth = 75.0
@@ -23,8 +23,8 @@ struct BearingAndDistance: View {
 		let offsetRotation = 90 * (3.1415926 / 180)
 		let multiplier = 3.1415926 / 180.0
 		
-		let offsetX = cos((bearing * multiplier) - offsetRotation) * frameDistance
-		let offsetY = sin((bearing * multiplier) - offsetRotation) * frameDistance
+		let offsetX = cos((bearing.value * multiplier) - offsetRotation) * frameDistance
+		let offsetY = sin((bearing.value * multiplier) - offsetRotation) * frameDistance
 		
 		ZStack {
 			Circle()
@@ -36,7 +36,7 @@ struct BearingAndDistance: View {
 				.fill(.white)
 				.frame(width: 6.0, height: 6.0)
 				.offset(x: offsetX, y: offsetY)
-			Text("\(distance.formatted(.number)) Miles")
+			Text("\(distance.value.formatted(.number)) Miles")
 				.font(.system(size: 10.0))
 		}
 		
